@@ -1,0 +1,333 @@
+@charset "utf-8";
+
+/***** 全体の設定 *****/
+body {
+}
+
+a {
+  color: #1487bd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f5373;
+}
+
+a:visited {
+  color: #789dae;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited {
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.3em 0 0.8em 0;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h4 {
+  margin-top: 1rem;
+  font-size: 100%;
+  border-bottom: dotted 1px;
+}
+
+textarea {
+  width: 90%;
+}
+
+.archive-title {
+  display: none;
+}
+
+/***** 骨組み *****/
+.site-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+}
+
+.content {
+  margin: 5rem;
+}
+
+footer {
+  text-align: center;
+}
+
+/***** ヘッダ部 *****/
+.title-area a {
+  color: #333;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  color: #333;
+  font-weight: normal;
+}
+
+/***** 記事メタ *****/
+.entry-title .entry-title h1 {
+  font-size: 150%;
+  line-height: 1rem;
+  color: #333;
+  margin: 1rem 0 1rem 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.entry-meta {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.time {
+  margin: 0.5rem;
+}
+
+.tags {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.tag {
+  font-size: 85%;
+  margin: 0 0.8rem 0 0;
+  padding: 0.3rem;
+  background: #aaa;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.tag a {
+  color: #fff;
+  display: inline-block;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+.svg-inline--fa {
+  margin-right: 0.5rem;
+}
+
+.thumbnail {
+  text-align: center;
+}
+
+/***** 目次 *****/
+.toc-title {
+  text-align: center;
+}
+
+.table-of-contents {
+  border: solid 1px;
+  max-width: 95%;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+/***** 記事本文 *****/
+.entry {
+  padding: 0 0 3rem 0;
+}
+
+.entry-content {
+  text-align: justify;
+}
+
+.entry-content h2 {
+  font-size: 120%;
+  border-left: solid 10px;
+  border-bottom: solid 1px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 3rem;
+}
+
+.entry-content h3 {
+  font-size: 110%;
+  border-bottom: solid 1px;
+  margin-left: 5px;
+  padding: 3px;
+  margin-top: 2rem;
+}
+
+strong {
+  background: linear-gradient(transparent 75%, #c1e0ff 75%);
+  border-radius: 6px;
+}
+
+blockquote {
+  margin: 0;
+  position: relative;
+  padding: 10px 15px 10px 50px;
+  box-sizing: border-box;
+  font-style: italic;
+  border: solid 1px;
+}
+
+blockquote:before {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  content: "\f122";
+  font-family: dashicons;
+  color: #77c0c9;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+pre {
+  overflow: auto;
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+}
+
+code {
+  color: #2f4f4f;
+  font-family: Consolas, "Courier New", Courier, Monaco, monospace;
+}
+
+.share {
+  margin-top: 2rem;
+}
+
+.share-icon {
+  margin-right: 1rem;
+}
+
+/***** 関連記事 *****/
+.related {
+  font-weight: bold;
+}
+
+.crp_related {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/***** ページネーション *****/
+.pagination {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 1px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.pagination-omission,
+.pagination a {
+  display: block;
+  font-size: 1rem;
+  padding: 0.6em 1em;
+  border-radius: 3px;
+}
+
+.pagination a {
+  background: #eee;
+  color: #000;
+}
+
+.pagination a:hover {
+  background: #333;
+  color: #fff;
+}
+
+/***** サイドバー *****/
+.textwidget img {
+  margin-right: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.search-form {
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #999;
+  display: block;
+  padding: 3px 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  height: 2.3em;
+  width: 95%;
+}
+
+.search-form-input {
+  border: none;
+  position: relative;
+  height: 2em;
+  width: 100%;
+}
+
+.search-form-input:focus {
+  outline: 0;
+}
+
+.search-form-submit {
+  display: none;
+}
+
+/***** フッタ *****/
+.item-title {
+  padding-bottom: 0.5rem;
+}
+
+.profile {
+  font-size: 85%;
+}
+
+.f-container {
+  display: flex;
+  text-align: left;
+  flex-diretion: row;
+  justify-content: flex-end;
+}
+
+.f-item {
+  flex-basis: 33%;
+}
+
+small {
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+/***** メディアクエリ *****/
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
