@@ -35,5 +35,11 @@ module.exports = {
         plugins: [`gatsby-remark-autolink-headers`],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/static/favicon.ico`,
+      },
+    },
   ],
 }
